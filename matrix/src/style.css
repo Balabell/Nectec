@@ -1,0 +1,165 @@
+body{
+    background-color: #FFFAF0;
+}
+
+table{
+    width:95%;
+    border-collapse: collapse;
+    margin-left: 2%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+}
+
+table, th, td{
+    border: 1px solid black;
+    padding:1%;
+    margin-bottom: 2%;
+}
+
+caption{
+    color: black;
+    font-size: 25px;
+    padding-bottom: 2%;
+    font-weight: bold;
+}
+
+.row ,.row-with-width-max ,.row-with-width-max2{
+    text-align: left;
+}
+
+.relative{
+    position: relative;
+}
+
+.row-with-width-max{
+    max-width: 300px;
+}
+
+.row-with-width-max1{
+    max-width: 100px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.row-with-width-max2{
+    max-width: 200px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.row-with-width-max3{
+    max-width: 150px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.maxLencol{
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0%;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    height:150px;
+    max-width: 40px;
+    font-size: 80%;
+}
+
+.col{
+    text-align: right;
+}
+
+.filters {
+  margin-top: 1%;
+  display: inline-block;
+  margin-left:10%;
+  width:80%;
+}
+
+.filters select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 10px 50px 10px 10px;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    outline: none;
+    background-repeat: no-repeat;
+    background-position: 100% center; 
+    width:25%;
+}
+
+.inLine{
+    display: inline;
+}
+
+.myMatrix{
+    display: inline;
+}
+
+.myScale{ 
+    position: absolute;
+    width:90%;
+    height:260px;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.scale-color{
+    width: 7.5%;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+
+.plus1{
+    position: absolute;
+    top: 39%;
+    left: 19%;
+}
+
+.newplus1{
+    position: absolute;
+    top: 56%;
+    left: 19%;
+}
+
+.plus1:hover ,.newplus1:hover ,.plus2:hover ,.minus1:hover ,.newminus1:hover ,.minus2:hover ,.newminus2:hover{
+    border: 1px solid black;
+}
+
+.minus1{
+    position: absolute;
+    top: 39%;
+    left: 9%;
+}
+
+.newminus1{
+    position: absolute;
+    top: 56%;
+    left: 9%;
+}
+
+.minus2{
+    position: absolute;
+    top: 39%;
+    left: 29%;
+}
+
+.newminus2{
+    position: absolute;
+    top: 56%;
+    left: 29%;
+}
+
+
+
